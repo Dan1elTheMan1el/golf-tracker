@@ -1,0 +1,98 @@
+.scoreCell {
+    padding: 10px 30px; /* Decrease vertical padding and add more horizontal padding */
+}
+
+.controlsRow {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.numColumnsInput {
+    width: 50px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: transparent;
+    color: var(--text-color);
+    outline: none;
+    text-align: center;
+}
+
+.numColumnsInput:hover, .numColumnsInput:focus {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.editable-input, .scoreInput {
+    background-color: transparent;
+    color: var(--text-color);
+    font-size: inherit;
+    font-weight: inherit;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    outline: none;
+    text-align: center;
+    width: 50px; /* Set a fixed width for the input fields */
+    padding: 5px; /* Add padding to the input fields */
+}
+
+.editable-input:hover, .scoreInput:hover {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.editable-input:focus, .scoreInput:focus {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.score-green {
+    color: rgb(91, 201, 91);
+}
+
+.score-white {
+    color: white;
+}
+
+.score-yellow {
+    color: rgb(255, 217, 0);
+}
+
+.score-red {
+    color: rgb(245, 54, 54);
+}
+
+.scoreTable th, .scoreTable td {
+    background-color: transparent; /* Remove background color */
+    border: none; /* Remove border */
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    accent-color: 'violet';
+}

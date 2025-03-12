@@ -1,0 +1,79 @@
+.pastGames {
+    margin-top: 20px;
+}
+
+.pastGames ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.pastGames li {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.pastGames h3 {
+    margin: 0;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.pastGames p {
+    margin: 5px 0;
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4); /* Dimming the background */
+}
+
+.modal-content {
+  background-color: #283429;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.scoreTable {
+    margin-top: 20px;
+}
+
+.scoreTable table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.scoreTable th, .scoreTable td {
+    background-color: transparent; /* Remove background color */
+    border: none; /* Remove border */
+    padding: 8px;
+    text-align: center;
+}
