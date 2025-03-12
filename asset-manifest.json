@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Dan1elTheMan1el/golf-tracker/static/css/main.17938c74.css",
-    "main.js": "/Dan1elTheMan1el/golf-tracker/static/js/main.2ea52aef.js",
-    "static/js/453.305ba4db.chunk.js": "/Dan1elTheMan1el/golf-tracker/static/js/453.305ba4db.chunk.js",
-    "index.html": "/Dan1elTheMan1el/golf-tracker/index.html",
-    "main.17938c74.css.map": "/Dan1elTheMan1el/golf-tracker/static/css/main.17938c74.css.map",
-    "main.2ea52aef.js.map": "/Dan1elTheMan1el/golf-tracker/static/js/main.2ea52aef.js.map",
-    "453.305ba4db.chunk.js.map": "/Dan1elTheMan1el/golf-tracker/static/js/453.305ba4db.chunk.js.map"
+    "main.css": "/golf-tracker/static/css/main.17938c74.css",
+    "main.js": "/golf-tracker/static/js/main.367e6810.js",
+    "static/js/453.305ba4db.chunk.js": "/golf-tracker/static/js/453.305ba4db.chunk.js",
+    "index.html": "/golf-tracker/index.html",
+    "main.17938c74.css.map": "/golf-tracker/static/css/main.17938c74.css.map",
+    "main.367e6810.js.map": "/golf-tracker/static/js/main.367e6810.js.map",
+    "453.305ba4db.chunk.js.map": "/golf-tracker/static/js/453.305ba4db.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.17938c74.css",
-    "static/js/main.2ea52aef.js"
+    "static/js/main.367e6810.js"
   ]
 }
