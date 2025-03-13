@@ -127,7 +127,7 @@ const GameScore = ({ setPastGames }) => {
         setPastGames(prevGames => [...prevGames, gameState]);
 
         // Clear current game state (only scores)
-        const clearedColumns = columns.map(column => column.map(() => 0));
+        const clearedColumns = columns.map(() => []);
         setColumns(clearedColumns);
         setInputs(inputs.map(() => ''));
         setWildRounds([]);

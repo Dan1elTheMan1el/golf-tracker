@@ -39,13 +39,14 @@
 }
 
 .modal-content {
-  background-color: #283429;
+    background-color: #283429;
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
     max-width: 600px;
     border-radius: 10px;
+    position: relative;
 }
 
 .close {
@@ -60,6 +61,19 @@
     color: white;
     text-decoration: none;
     cursor: pointer;
+}
+
+.delete {
+    color: #aaa;
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.delete:hover,
+.delete:focus {
+    color: red;
 }
 
 .scoreTable {
